@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Giới thiệu Văn hóa Đắk Nông</title>
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#0f1724;
+  --accent:#0ea5e9;
+  --muted:#9aa8b6;
+  --text:#e6eef6;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family: "Segoe UI", Roboto, Arial, sans-serif;background: linear-gradient(180deg,var(--bg),#071122);color:var(--text);}
+header{padding:28px 20px;text-align:center;background:linear-gradient(90deg, rgba(0,0,0,0.25), rgba(10,20,30,0.15));border-bottom:1px solid rgba(255,255,255,0.03);}
+header h1{margin:0 0 6px;font-size:28px}
+header p{margin:0;color:var(--muted)}
+.container{max-width:980px;margin:24px auto;padding:0 16px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+.card{background:linear-gradient(180deg,var(--card), rgba(15,23,36,0.9));padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.02);}
+.card h2{margin:0 0 8px;color:var(--accent);font-size:18px}
+.card p{margin:0;color:var(--muted);line-height:1.45;font-size:14px}
+.card a{color:var(--accent);text-decoration:underline;margin-top:8px;display:inline-block;}
+.hero{display:flex;gap:12px;align-items:center;padding:18px;margin-bottom:14px;border-radius:12px;background:linear-gradient(90deg, rgba(14,165,233,0.06), rgba(255,255,255,0.01));border:1px solid rgba(14,165,233,0.07);}
+.hero .img{width:96px;height:96px;border-radius:8px;background:linear-gradient(135deg,#093147,#0ea5e9);flex:0 0 96px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px;}
+.footer{margin:36px 0 18px;text-align:center;color:var(--muted);font-size:13px}
+@media (max-width:420px){header h1{font-size:20px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Khám phá Văn hóa Đắk Nông</h1>
+  <p>Nét đẹp Tây Nguyên: cồng chiêng, thổ cẩm, ẩm thực và lễ hội</p>
+</header>
+<main class="container">
+  <div class="hero card" aria-hidden="false">
+    <div class="img">ĐN</div>
+    <div>
+      <h2>Đắk Nông — Vùng đất văn hóa</h2>
+      <p>Đắk Nông nổi bật với cộng đồng dân tộc, phong tục truyền thống và cảnh quan núi rừng.</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Cồng chiêng</h2>
+      <p>Cồng chiêng là linh hồn văn hóa Tây Nguyên, dùng trong lễ hội, cưới hỏi, mừng mùa và giao hưởng cộng đồng.</p>
+      <a href="congchieng.html">Xem chi tiết →</a>
+    </section>
+
+    <section class="card">
+      <h2>Thổ cẩm</h2>
+      <p>Truyền thống dệt thổ cẩm với họa tiết ý nghĩa — mỗi hoa văn kể một câu chuyện về thiên nhiên và cuộc sống.</p>
+      <a href="thocam.html">Xem chi tiết →</a>
+    </section>
+
+    <section class="card">
+      <h2>Ẩm thực</h2>
+      <p>Cơm lam, rượu cần, thịt nướng ống tre, canh thụt — món mộc mạc nhưng đậm vị núi rừng.</p>
+      <a href="amthuc.html">Xem chi tiết →</a>
+    </section>
+
+    <section class="card">
+      <h2>Lễ hội</h2>
+      <p>Các lễ hội mừng lúa mới, lễ cúng, lễ trưởng thành giúp kết nối cộng đồng và truyền lại giá trị văn hóa.</p>
+      <a href="lehoi.html">Xem chi tiết →</a>
+    </section>
+
+    <section class="card">
+      <h2>Nhà dài & Kiến trúc</h2>
+      <p>Nhà dài thể hiện lối sống cộng đồng — nơi họp, sinh hoạt và tổ chức lễ nghi của buôn làng.</p>
+      <a href="nhadaidaky.html">Xem chi tiết →</a>
+    </section>
+
+    <section class="card">
+      <h2>Du lịch văn hóa</h2>
+      <p>Thăm buôn làng, nghe cồng chiêng, mua thổ cẩm — trải nghiệm văn hóa bản địa đích thực.</p>
+      <a href="dulich.html">Xem chi tiết →</a>
+    </section>
+  </div>
+</main>
+</body>
+</html>
